@@ -50,7 +50,6 @@ function Header(props) {
             <Zoom>
               <img src={res.url} width={200} alt="Bengal Cats posing" />
             </Zoom>
-            
           </li>
         ))}
       </ul>
