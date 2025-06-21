@@ -27,14 +27,14 @@ const NavLink1 = styled(NavLink)`
 
 
 function NavBar() {
-    return (
-        <>
-            <Nav>
-                <NavLink1 to="/">Home</NavLink1>
-                <NavLink1 to="/gallery">Gallery</NavLink1>
-                <NavLink1 to="/about">About</NavLink1>
-            </Nav>
-        </>  
+  return (
+    <>
+      <Nav>
+        <NavLink1 to="/">Home</NavLink1>
+        <NavLink1 to="/gallery">Gallery</NavLink1>
+        <NavLink1 to="/about">About</NavLink1>
+      </Nav>
+    </>
   )
 }
 
